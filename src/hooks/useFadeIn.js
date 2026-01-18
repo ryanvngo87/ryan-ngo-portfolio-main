@@ -8,8 +8,7 @@ function useFadeIn() {
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
-                    setIsVisible(true);
-                    observer.disconnect();
+                    setIsVisible(entry.isIntersecting);
                     console.log("Element is visible:", entry.target);
                 }
             }
