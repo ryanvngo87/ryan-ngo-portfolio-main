@@ -10,9 +10,6 @@ const Home = () => {
         </h1>
         <p className="description">i like to build stuff.</p>
         <div className="cta-buttons">
-          <Link to="/projects" className="btn">
-            View My Projects
-          </Link>
           <a
             href="/resumes/Ryan_Ngo_Resume_v.1.1.2.pdf"
             target="_blank"
