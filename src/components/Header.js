@@ -20,9 +20,6 @@ function Header() {
           <li>
             <Link to="/experience">experience</Link>
           </li>
-          <li>
-            <Link to="/projects">projects</Link>
-          </li>
         </ul>
       </nav>
     </header>
