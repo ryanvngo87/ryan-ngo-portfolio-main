@@ -11,6 +11,9 @@ function useFadeIn() {
                     setIsVisible(entry.isIntersecting);
                     console.log("Element is visible:", entry.target);
                 }
+            },
+            {
+                threshold: 0.1, 
             }
         );
 
