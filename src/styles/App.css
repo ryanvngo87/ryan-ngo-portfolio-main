@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #008080;
+  --secondary-color: #0a1f44;
+  --accent-color: #00cccc;
+  --background-color: #0d1b2a;
+  --text-color: #e0e1dd;
+}
+
+
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Arial", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.header {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  text-align: center;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.header a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: var(--primary-color);
+}
+
+.home,
+.about,
+.projects,
+.contact {
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  color: var(--accent-color);
+}

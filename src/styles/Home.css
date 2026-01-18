@@ -1,0 +1,113 @@
+:root {
+  --primary-color: #008080;
+  --secondary-color: #0a1f44;
+  --accent-color: #00cccc;
+  --background-color: #0d1b2a;
+  --text-color: #e0e1dd;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 0 10%;
+  background: linear-gradient(
+    to right,
+    var(--secondary-color),
+    var(--background-color)
+  );
+  color: var(--text-color);
+}
+
+.intro {
+  max-width: 50%;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.name-highlight {
+  color: var(--accent-color);
+  text-shadow: 2px 2px var(--secondary-color);
+}
+
+.intro p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  font-weight: bold;
+  margin-top: 2rem;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+}
+
+.btn-resume {
+  border: 2px solid var(--primary-color);
+}
+
+.home-image {
+  max-width: 45%;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.profile-img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  animation: float 4s ease-in-out infinite;
+}
+
+.description {
+  font-weight: bold;
+}
+
+.contact-container {
+  margin-top: 50px;
+}
+
+.email-highlight {
+  color: var(--accent-color);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
