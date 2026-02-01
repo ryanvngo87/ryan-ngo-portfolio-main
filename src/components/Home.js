@@ -10,7 +10,7 @@ const Home = () => {
         <p className="description">i like to build stuff.</p>
         <div className="cta-buttons">
           <a
-            href="/resumes/Ryan_Ngo_Resume_v.1.1.2.pdf"
+            href="/resumes/Ryan_Ngo_Resume_v.1.1.3.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-resume"
