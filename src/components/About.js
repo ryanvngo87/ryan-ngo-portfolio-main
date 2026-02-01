@@ -23,7 +23,7 @@ function About() {
       <div ref={ref} className={`fade-in ${visible ? "visible" : ""}`}>
         <div className="about-image">
           <img
-            src="./images/ryan-ngo-2.jpg"
+            src="./images/dog_wif_beanie.jpg"
             alt="profile"
             className="profile-img-2"
           />
