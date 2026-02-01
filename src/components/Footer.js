@@ -16,9 +16,6 @@ function Footer() {
             <ul>
                 <Link to="/experience">Experience</Link>
             </ul>
-            <ul>
-                <Link to="/projects">Projects</Link>
-            </ul>
         </nav>
 
         <section class="column">
