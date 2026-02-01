@@ -41,9 +41,6 @@ function Footer() {
             <ul>
                 <li>Email: <a href="mailto:ryanvngo@gmail.com">ryanvngo@gmail.com</a></li>
             </ul>
-            <ul>
-                <li>Phone Number: <a href="tel:+4694080510">(469) 408-0510</a></li>
-            </ul>
         </section>
         <div className="footer-bottom">
             <p>&copy; {new Date().getFullYear()} Ryan Ngo. All rights reserved.</p>
